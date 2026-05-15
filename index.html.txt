@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ак-Коргон</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ак-Коргон</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Бош бўлим</a></li>
+        <li><a href="#news">Ак Корган янгиликлари</a></li>
+        
+        <li class="dropdown">
+          <a href="#library">Ак Корган кутибхонаси ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#fiqh">Фиқх</a></li>
+            <li><a href="#aqida">Ақида</a></li>
+            <li><a href="#adabiyat">Адабиёт</a></li>
+            <li><a href="#shariat">Шерият</a></li>
+            <li><a href="#tasavvuf">Тасаввуф</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#fund">Ак Корган фонди ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#fund-in">Фондга тушган пул</a></li>
+            <li><a href="#fund-out">Сарфланган пул</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#religion">Диний ишлар ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#darslar">Жоме дарслар</a></li>
+            <li><a href="#quran">Қурон курслар</a></li>
+            <li><a href="#nikoh">Никохгача курслар</a></li>
+            <li><a href="#musobaqa">Мусобақалар</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="#sport">Ак Корган спорт</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="home">
+      <h2>Бош бўлим</h2>
+      <p>Бу ерга бош саҳифа мазмуни ёзинг.</p>
+    </section>
+
+
+    <section id="news">
+      <h2>Ак Корган янгиликлари</h2>
+      <p>Янгиликларни бу ерга қўшинг.</p>
+    </section>
+
+
+    <section id="library">
+      <h2>Ак Корган кутибхонаси</h2>
+      
+      <div id="fiqh" class="sub-section">
+        <h3>Фиқх</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="aqida" class="sub-section">
+        <h3>Ақида</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="adabiyat" class="sub-section">
+        <h3>Адабиёт</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="shariat" class="sub-section">
+        <h3>Шерият</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="tasavvuf" class="sub-section">
+        <h3>Тасаввуф</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+    </section>
+
+
+    <section id="fund">
+      <h2>Ак Корган фонди</h2>
+      
+      <div id="fund-in" class="sub-section">
+        <h3>Фондга тушган пул</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="fund-out" class="sub-section">
+        <h3>Сарфланган пул</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+    </section>
+
+
+    <section id="religion">
+      <h2>Диний ишлар</h2>
+      
+      <div id="darslar" class="sub-section">
+        <h3>Жоме дарслар</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="quran" class="sub-section">
+        <h3>Қурон курслар</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="nikoh" class="sub-section">
+        <h3>Никохгача курслар</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+      
+      <div id="musobaqa" class="sub-section">
+        <h3>Мусобақалар</h3>
+        <p>Мазмунни ёзинг.</p>
+      </div>
+    </section>
+
+
+    <section id="sport">
+      <h2>Ак Корган спорт</h2>
+      <p>Спорт хабарларини бу ерга ёзинг.</p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>© 2026 Ак-Коргон</p>
+  </footer>
+</body>
+</html>
